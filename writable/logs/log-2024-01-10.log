@@ -1,0 +1,409 @@
+INFO - 2024-01-10 00:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:32:48 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:32:48 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:33:46 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:33:46 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:34:12 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/MidtransController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\MidtransController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MidtransController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:34:13 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/MidtransController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\MidtransController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:34:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:34:15 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:34:36 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/MidtransController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\MidtransController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MidtransController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:34:36 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/MidtransController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\MidtransController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:36:46 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/MidtransController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\MidtransController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MidtransController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:36:46 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/MidtransController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\MidtransController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:41:23 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:41:24 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-10 00:41:54 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php on line 141.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(141): substr(null, 0, 50)
+ 2 [internal function]: Midtrans\Sanitizer->Midtrans\{closure}(null)
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(157): call_user_func(Object(Closure), null)
+ 4 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(47): Midtrans\Sanitizer->apply(null)
+ 5 VENDORPATH/midtrans/midtrans-php/Midtrans/Sanitizer.php(33): Midtrans\Sanitizer::fieldItemDetails([...])
+ 6 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(103): Midtrans\Sanitizer::jsonRequest([...])
+ 7 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction([...])
+ 8 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken([...])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesController))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 00:41:55 --> Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["item_details Name is required","item_details Price is required","item_details Price is not a number","transaction_details.gross_amount harus sama atau lebih besar dari 0.01","transaction_details.gross_amount is not equal to the sum of item_details"]}
+in VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php on line 167.
+ 1 VENDORPATH/midtrans/midtrans-php/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+ 2 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(109): Midtrans\ApiRequestor::post()
+ 3 VENDORPATH/midtrans/midtrans-php/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+ 4 APPPATH/Controllers/TesController.php(72): Midtrans\Snap::getSnapToken()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\TesController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-10 00:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 00:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 01:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 02:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 04:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 06:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 07:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 08:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 09:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 10:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 10:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 10:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 12:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 13:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 13:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 13:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 15:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 15:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 15:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 16:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 16:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 18:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 19:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 19:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 19:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 21:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 22:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 22:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 23:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 23:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-10 23:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

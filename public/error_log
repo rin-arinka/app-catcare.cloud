@@ -1,0 +1,171 @@
+[09-Jan-2024 22:54:24 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:54:24 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:54:27 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:54:27 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:54:32 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:54:32 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:55:53 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:55:53 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:55:55 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 22:55:55 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:00:01 Asia/Jakarta] PHP Notice:  Trying to get property 'systemDirectory' of non-object in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:00:01 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:00:01 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:00:21 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:00:21 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:00:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:05 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:05 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:54 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:54 Asia/Jakarta] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:54 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:02:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/catj6536/public_html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:10:16 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:10:16 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:10:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 39
+[09-Jan-2024 23:15:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEMPATH" in /home/catj6536/public_html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 42
+[09-Jan-2024 23:15:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "SYSTEMPATH" in /home/catj6536/public_html/index.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 42
+[09-Jan-2024 23:16:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "CodeIgniter\Config\DotEnv" not found in /home/catj6536/public_html/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 43
+[09-Jan-2024 23:16:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "CodeIgniter\Config\DotEnv" not found in /home/catj6536/public_html/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 43
+[09-Jan-2024 23:17:16 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 55
+[09-Jan-2024 23:17:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 55
+[09-Jan-2024 23:19:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected fully qualified name "\Services" in /home/catj6536/public_html/index.php on line 55
+[09-Jan-2024 23:20:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected token "." in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:22:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:23:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:24:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 55
+[09-Jan-2024 23:25:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 55
+[09-Jan-2024 23:25:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 55
+[09-Jan-2024 23:25:59 Asia/Jakarta] PHP Warning:  require(/home/catj6536/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:25:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/catj6536/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:00 Asia/Jakarta] PHP Warning:  require(/home/catj6536/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/catj6536/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:01 Asia/Jakarta] PHP Warning:  require(/home/catj6536/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/catj6536/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:01 Asia/Jakarta] PHP Warning:  require(/home/catj6536/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/catj6536/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:05 Asia/Jakarta] PHP Warning:  require(/home/catj6536/public_html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/catj6536/public_html/../app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 32
+[09-Jan-2024 23:26:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:27:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:27:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:27:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:27:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:27:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:28:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:28:31 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Class "Config\Services" not found in /home/catj6536/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 56
+[09-Jan-2024 23:29:34 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:34 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:36 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:36 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:42 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:42 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:42 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:42 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:43 Asia/Jakarta] PHP Warning:  Attempt to read property "systemDirectory" on string in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:43 Asia/Jakarta] PHP Warning:  require(/bootstrap.php): Failed to open stream: No such file or directory in /home/catj6536/public_html/index.php on line 40
+[09-Jan-2024 23:29:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/bootstrap.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/catj6536/public_html/index.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/catj6536/public_html/index.php on line 40
